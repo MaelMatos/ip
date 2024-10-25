@@ -1,1 +1,1 @@
-<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><?php echo $text[$i];?></div>
+<div class="tab-pane fade" id="v-pills-<?php echo $i;?>" role="tabpanel" aria-labelledby="v-pills-<?php echo $i;?>-tab"><?php echo $text[$i];?></div>

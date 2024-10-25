@@ -1,6 +1,6 @@
 <?php
 $i = 0;
-$type = 
+$type = "test2.php";
 $text = [
     "Conceitos de Segurança da Informação",
     "Cartilha de Segurança para Internet",
