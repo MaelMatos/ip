@@ -1,6 +1,5 @@
 <?php
 $i = 0;
-echo "<ul class='nav nav-tabs' id='myTab' role='tablist'>";
 $text = [
     "Conceitos de Segurança da Informação",
     "Cartilha de Segurança para Internet",
@@ -22,5 +21,4 @@ while ($i < 14){
     include "test.php";
     $i= $i+1;
 }
-echo "</ul>";
 ?>

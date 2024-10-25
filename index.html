@@ -7,70 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-            <span class="fs-4">Simple header</span>
-          </a>
-          
-<ul class='nav nav-tabs' id='myTab' role='tablist' style="display: inline-block;">  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="0-tab" data-bs-toggle="tab" data-bs-target="#0" type="button" role="tab" aria-controls="home" aria-selected="true">Conceitos de Segurança da Informação</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#1" type="button" role="tab" aria-controls="home" aria-selected="true">Cartilha de Segurança para Internet</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="2-tab" data-bs-toggle="tab" data-bs-target="#2" type="button" role="tab" aria-controls="home" aria-selected="true">Mecanismos de Segurança</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="3-tab" data-bs-toggle="tab" data-bs-target="#3" type="button" role="tab" aria-controls="home" aria-selected="true">Características de segurança da informação</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="4-tab" data-bs-toggle="tab" data-bs-target="#4" type="button" role="tab" aria-controls="home" aria-selected="true">Políticas de segurança</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="5-tab" data-bs-toggle="tab" data-bs-target="#5" type="button" role="tab" aria-controls="home" aria-selected="true">Criptografia e Firewall</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="6-tab" data-bs-toggle="tab" data-bs-target="#6" type="button" role="tab" aria-controls="home" aria-selected="true">Segurança em redes de computadores e dispositivos móveis</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="7-tab" data-bs-toggle="tab" data-bs-target="#7" type="button" role="tab" aria-controls="home" aria-selected="true">Identificação de vulnerabilidades</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="8-tab" data-bs-toggle="tab" data-bs-target="#8" type="button" role="tab" aria-controls="home" aria-selected="true">Engenharia social</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="9-tab" data-bs-toggle="tab" data-bs-target="#9" type="button" role="tab" aria-controls="home" aria-selected="true">Varredura/análise</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="10-tab" data-bs-toggle="tab" data-bs-target="#10" type="button" role="tab" aria-controls="home" aria-selected="true">Negação de serviço - DoS e DDoS</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="11-tab" data-bs-toggle="tab" data-bs-target="#11" type="button" role="tab" aria-controls="home" aria-selected="true">Testes de penetração e de vulnerabilidades</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="12-tab" data-bs-toggle="tab" data-bs-target="#12" type="button" role="tab" aria-controls="home" aria-selected="true">Injection SQL</button>
-  </li>  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="13-tab" data-bs-toggle="tab" data-bs-target="#13" type="button" role="tab" aria-controls="home" aria-selected="true">Footprint - descoberta de informações</button>
-  </li></ul>
+<div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-0-tab" data-bs-toggle="pill" data-bs-target="#v-pills-0" type="button" role="tab" aria-controls="v-pills-0" aria-selected="true">Conceitos de Segurança da Informação</button>    <button class="nav-link active" id="v-pills-1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true">Cartilha de Segurança para Internet</button>    <button class="nav-link active" id="v-pills-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="true">Mecanismos de Segurança</button>    <button class="nav-link active" id="v-pills-3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="true">Características de segurança da informação</button>    <button class="nav-link active" id="v-pills-4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="true">Políticas de segurança</button>    <button class="nav-link active" id="v-pills-5-tab" data-bs-toggle="pill" data-bs-target="#v-pills-5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="true">Criptografia e Firewall</button>    <button class="nav-link active" id="v-pills-6-tab" data-bs-toggle="pill" data-bs-target="#v-pills-6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="true">Segurança em redes de computadores e dispositivos móveis</button>    <button class="nav-link active" id="v-pills-7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="true">Identificação de vulnerabilidades</button>    <button class="nav-link active" id="v-pills-8-tab" data-bs-toggle="pill" data-bs-target="#v-pills-8" type="button" role="tab" aria-controls="v-pills-8" aria-selected="true">Engenharia social</button>    <button class="nav-link active" id="v-pills-9-tab" data-bs-toggle="pill" data-bs-target="#v-pills-9" type="button" role="tab" aria-controls="v-pills-9" aria-selected="true">Varredura/análise</button>    <button class="nav-link active" id="v-pills-10-tab" data-bs-toggle="pill" data-bs-target="#v-pills-10" type="button" role="tab" aria-controls="v-pills-10" aria-selected="true">Negação de serviço - DoS e DDoS</button>    <button class="nav-link active" id="v-pills-11-tab" data-bs-toggle="pill" data-bs-target="#v-pills-11" type="button" role="tab" aria-controls="v-pills-11" aria-selected="true">Testes de penetração e de vulnerabilidades</button>    <button class="nav-link active" id="v-pills-12-tab" data-bs-toggle="pill" data-bs-target="#v-pills-12" type="button" role="tab" aria-controls="v-pills-12" aria-selected="true">Injection SQL</button>    <button class="nav-link active" id="v-pills-13-tab" data-bs-toggle="pill" data-bs-target="#v-pills-13" type="button" role="tab" aria-controls="v-pills-13" aria-selected="true">Footprint - descoberta de informações</button>
     </div>
-    </header>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="0" role="tabpanel" aria-labelledby="0-tab">
-            <h2>Conceitos de Segurança da Informação</h2>
-            <p>Segurança da informação é a prevenção, detecção, e mitigação de riscos relacionados com a manutenção, divulgação, armazenamento, transmissão, utilização, alteração, e retenção de dados confidenciais e/ou técnicos.</p>
-            <ul>
-                <li>Prevenção: identificar e alertar sobre possíveis ataques.</li>
-                <li>Detecção: detectar a ocorrência de ataques e alertar sobre o ataque.</li>
-                <li>Mitigação: aplicar medidas de segurança para prevenir e neutralizar ataques.</li>
-            </ul>
-        </div
-        <div class="tab-pane fade" id="1" role="tabpanel" aria-labelledby="1-tab">
-            <h2>Cartilha de Segurança para Internet</h2>
-            <p>Uma cartilha de segurança para internet é um guia de boas práticas que ajuda a garantir a confidencialidade, integridade, disponibilidade, e seguridade dos dados transmitidos na internet.</p>
-            <ul>
-                <li>Utilizar HTTPS: utilizar somente a conexão segura (HTTPS) para transmitir dados.</li>
-                <li>Proteger senhas: usar senhas fortes, não compartilhar as senhas com outras pessoas.</li>
-                <li>Utilizar firewalls: implementar um firewall para restringir as portas e endereços externos que podem acessar seu sistema.</li>
-                <li>Monitorar e análise de logs: monitorar os logs de entrada e saída do seu sistema para detectar possíveis ataques.</li>
-            </ul>
-        </div>
+    <div class="tab-content" id="v-pills-tabContent">
+        
     </div>
-
-
-
-
+</div>
 
 </body>
 </html>
