@@ -1,5 +1,6 @@
 <?php
 $i = 0;
+$type = 
 $text = [
     "Conceitos de Segurança da Informação",
     "Cartilha de Segurança para Internet",
@@ -18,7 +19,7 @@ $text = [
 ];
 
 while ($i < 14){
-    include "test.php";
+    include $type;
     $i= $i+1;
 }
 ?>

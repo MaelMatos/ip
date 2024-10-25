@@ -1,0 +1,1 @@
+<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><?php echo $text[$i];?></div>
